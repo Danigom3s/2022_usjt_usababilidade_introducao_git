@@ -10,8 +10,14 @@ public class Empregado {
     public void setTipo(int tipo){
         this.tipo = tipo;
     }
-    public void getTipo(){
+    public int getTipo(){
         return tipo;
+    }
+    public void setSalario(double salario){
+        this.salario = salario;
+    }
+    public double getSalario(){
+        return salario;
     }
 
     public double calculaSalario(){
