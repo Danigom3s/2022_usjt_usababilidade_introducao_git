@@ -20,6 +20,19 @@ public class Empregado {
         return salario;
     }
 
+    public double getComissao() {
+        return comissao;
+    }
+    public void setComissao(double comissao) {
+        this.comissao = comissao;
+    }
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
+    }
+    public double getBonus() {
+        return bonus;
+    }
+
     public double calculaSalario(){
         if (tipo == 1)
             return salario;
